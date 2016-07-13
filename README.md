@@ -4,7 +4,7 @@ mod_ginger_(module name)
 (See the [raw version of this file](https://raw.githubusercontent.com/driebit/mod_ginger_template/master/README.md)
 to find out how formatting in Markdown works.)
 
-A Zotonic module for (insert explanation...).
+A Zotonic module for (insert purpose...).
 
 This module is part of [Ginger](http://github.com/driebit/ginger).
 
@@ -30,10 +30,15 @@ Usage
 
 ## Do that
 
-(And show how it‘s done by supplying code examples, like this:)
+(And show how it‘s done by supplying code examples, for instance:
+
+First, the Zotonic resource is converted into a set of RDF triples. To do so
+yourself:)
 
 ```erlang
+-include_lib("mod_ginger_rdf/include/rdf.hrl").
 
+#rdf_resource{id = Id, triples = Triples} = m_rdf:to_triples(Id, Context).
 ```
 
 ## Models
