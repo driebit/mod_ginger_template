@@ -1,6 +1,14 @@
 mod_ginger_(module name)
 ========================
 
+> To create a new module from this template:
+>
+> ```bash
+> $ cd ginger/modules
+> $ git clone git@github.com:driebit/mod_ginger_template.git mod_ginger_your_new_module
+> $ cd mod_ginger_your_new_module && rm -rf .git
+> ```
+
 (See the [raw version of this file](https://raw.githubusercontent.com/driebit/mod_ginger_template/master/README.md)
 to find out how formatting in Markdown works.)
 
