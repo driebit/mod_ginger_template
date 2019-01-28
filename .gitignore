@@ -1,0 +1,11 @@
+.DS_Store
+files/*
+!files/fixtures
+lib/css/site
+node_modules
+.sass-cache
+config.d
+npm-debug.log
+translations/template/
+translations/*.mo
+tmp/*
